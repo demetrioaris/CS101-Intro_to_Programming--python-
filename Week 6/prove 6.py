@@ -1,0 +1,75 @@
+print('World flaming')
+print()
+name = input('Please introduce your name:\n')
+print()
+print(f'Welcome {name} to a World flaming')
+print()
+print('The legend says that if someone throw water \nfrom the river of light to the volcano, it will go out.')
+print()
+print(f'Oh no!!!, the volcano started to erupt.\n\nYour mision star here {name}, are you ready?')
+print()
+choose_first = input(f'Please {name} write YES or NOT:\n')
+if choose_first.lower()=='yes':
+    print()
+    print(f'Thank you, {name}, go for it.')
+    print()
+else:
+    print()
+    print(f'We do not have time, Good look {name}, you are gonna be OK')
+    print()
+print(f'Your mission {name} is to climb a volcano to turn it off, you must carry a')
+print('bucket with water from the river of light and throw it into the')
+print('volcano, but the path to the volcano can be dangerous, you can get')
+print('lost, ashes have darkened the forest. The key is to follow the light')
+print('emanating from the volcano.')
+print()
+print('First stage')
+print()
+print(f'In order to reach your destination {name}, you must choose between these')
+print('two options, wear a mouth cover to protect yourself from the smoke ')
+print('caused by the ashes emitted from the volcano, or NOT to WEAR the mouth')
+print('cover because you think it will not work for you.')
+print()
+choose_second = input('You will WEAR or NOT WEAR a mouth cover \n')
+if choose_second.lower()=='wear':
+    print()
+    print('If you choose to wear a mouth cover, well done, it')
+    print('helps you to advance easily over the forest, and to the next stage')
+    print()
+    print('Second stage')
+    print()
+    print('You found a cabin and inside are a BUCKET of water and a TORCH,')
+    print('remember that you already have a bucket of water from the river of')
+    print('light, The BUCKET of water will tire you faster and')
+    print('you will go slower, and the TORCH will guide you faster through')
+    print('the smoke haze and you will reach the next checkpoint,')
+    print()
+    choose_third = input('what will you take? BUCKET or TORCH \n')
+    if choose_third.lower()=='bucket':
+        print()
+        print('You are close')
+        print()
+        print('If you choose to carry the bucket with water, it will help you against')
+        print('the heat and you will reach the top faster.')
+        print()
+        print(f'Congratulation\n\n{name}\n\nYou are on the top of vocano\nYou won the game\n\nYEAH!!!')
+    elif choose_third.lower() == 'torch':
+        print()
+        print('If you choose to carry the torch, you will not be tired but since you')
+        print('have no water the heat will tire you and you will not be able to reach')
+        print('the top, you are GAMEOVER \n\nLOL')
+    else:
+        print()
+        print('Please introduce a correct word')
+elif choose_second.lower() == 'not wear':
+    print()
+    print(f'If you choose not to wear the mask, you are GAMEOVER {name} \n\nLOL')
+else:
+    print()
+    print('Please introduce a correct word')
+
+
+
+
+
+
